@@ -27,17 +27,14 @@ function showArticle(jsonObj) {
       myTitle = document.createElement('h3'),
       myLink = document.createElement('a'),
       myContent = document.createElement('div.penci-post-excerpt'),
-      myCardBody = document.createElement('div')
 
     //console.log(article[i].title)
 
     // Attribution de class
     // const
 
-      classCard = document.createAttribute("class"),
-      classContent = document.createAttribute("class"),
-      classCardBody = document.createAttribute("class"),
-      classCardText = document.createAttribute("class")
+      classArticle = document.createAttribute("class")
+      styleArticle = document.createAttribute("style")
 
     // Définition du contenu des éléments Valeur | (key / value)
       myTitle.textContent = article[i].title
@@ -45,45 +42,40 @@ function showArticle(jsonObj) {
       myLink.href = article[i].link
       myContent.textContent = article[i].content
 
-
     // Définition des class à utiliser
-      classCard.value = "card"
-      classContent.value = "card-text"
-      classCardBody.value = "card-body"
-
+      classArticle.value = "card col-md-4"
+      styleArticle.value = article[i].style + "min-height: 200px"
 
     /*
      * Affichage des Elements avec leur variable (Parent => Enfant)
      ***************************************************************/
 
-
     // articleMedia créé un enfant (=>) qui est myArticle
-    articleMedia.appendChild(myArticle),
-    articleMedia.appendChild(myStyle),
-    articleMedia.appendChild(myTitle),
-    articleMedia.appendChild(myContent)
+    articleMedia.appendChild(myArticle)
+    // articleMedia.appendChild(myStyle)
+    // articleMedia.appendChild(myTitle)
+    // articleMedia.appendChild(myContent)
 
     // myArticle définit (=) ses class 
-    myArticle.setAttributeNode(classCard),
-    myArticle.setAttributeNode(classContent),
-    myArticle.setAttributeNode(classCardBody)
+    myArticle.setAttributeNode(classArticle)
+    myArticle.setAttributeNode(styleArticle)
 
     // myArticle => myCardBody
-    myCardBody.appendChild(myContent),
-    myCardBody.appendChild(myTitle)
+    // myCardBody.appendChild(myContent)
+    // myCardBody.appendChild(myTitle)
 
     // myCard => myLink
     //myArticle.setAttributeNode(myLink)
 
     // myLink => myContent
     //myContent = (classContent)
-    myContent.setAttributeNode(classContent)
+    // myContent.setAttributeNode(classContent)
 
     // myCard => (myCardBody)
-    myArticle.appendChild(myCardBody)
+    // myArticle.appendChild(myCardBody)
 
     // myCardBody => myTitle
-    myCardBody.appendChild(myTitle)
+    // myCardBody.appendChild(myTitle)
 
   }
 }
