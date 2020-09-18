@@ -1,0 +1,122 @@
+{
+    "id": "41410",
+    "type": "anime",
+    "links": {
+        "self": "https://kitsu.io/api/edge/anime/41410"
+    },
+    "relationships": {
+        "episodes": {
+            "links": {
+                "self": "https://kitsu.io/api/edge/anime/41410/relationships/episodes",
+                "related": "https://kitsu.io/api/edge/anime/41410/episodes"
+      
+            }
+        }
+
+    },
+    "createdAt": "2018-06-21T09:01:58.811Z",
+    "updatedAt": "2020-09-18T10:06:45.975Z",
+    "slug": "jojo-s-bizarre-adventure-part-5-vento-aureo",
+    "synopsis": "Naples, 2001. Giorno Giovanna is a small-time crook with one big dream—to become a \"Gang-Star.\" No ordinary thief, Giorno has a connection to the remarkable Joestar bloodline, and possesses a Stand named Gold Experience. His dream starts to become reality when he meets Bruno Buccellati, a mobster from the gang Passione and a fellow Stand user himself. Realizing that they share similar ideals, and both disagree with the gang's harmful affairs, Giorno reveals his goal to Bruno: with Bruno's help, he will reform Passione by overthrowing the boss.\n\nAs Giorno becomes a member of Passione, and is inducted into Bruno's squad, he discovers that it is no simple gang; its numbers are teeming with Stand users. Now confronted by other squads of differing loyalties and unpredictable caliber, their goal to change the gang from the inside out will be a tough one. Taking on these adversaries, Giorno attempts to rise through the ranks and inch closer to the boss, a man who is shrouded in mystery. \n\n(Source: MAL Rewrite)",
+    "description": "Naples, 2001. Giorno Giovanna is a small-time crook with one big dream—to become a \"Gang-Star.\" No ordinary thief, Giorno has a connection to the remarkable Joestar bloodline, and possesses a Stand named Gold Experience. His dream starts to become reality when he meets Bruno Buccellati, a mobster from the gang Passione and a fellow Stand user himself. Realizing that they share similar ideals, and both disagree with the gang's harmful affairs, Giorno reveals his goal to Bruno: with Bruno's help, he will reform Passione by overthrowing the boss.\n\nAs Giorno becomes a member of Passione, and is inducted into Bruno's squad, he discovers that it is no simple gang; its numbers are teeming with Stand users. Now confronted by other squads of differing loyalties and unpredictable caliber, their goal to change the gang from the inside out will be a tough one. Taking on these adversaries, Giorno attempts to rise through the ranks and inch closer to the boss, a man who is shrouded in mystery. \n\n(Source: MAL Rewrite)",
+    "coverImageTopOffset": 0,
+    "titles": {
+        "en": "JoJo's Bizarre Adventure: Golden Wind",
+        "en_jp": "JoJo no Kimyou na Bouken: Ougon no Kaze",
+        "ja_jp": "ジョジョの奇妙な冒険 黄金の風"
+    },
+    "canonicalTitle": "JoJo's Bizarre Adventure: Golden Wind",
+    "abbreviatedTitles": [
+        "Jojo's Bizarre Adventure Part 5: Golden Wind",
+        "JoJo's Bizarre Adventure Part 5: Vento Aureo"
+    ],
+    "averageRating": "82.43",
+    "ratingFrequencies": {
+        "2": "705",
+        "3": "8",
+        "4": "28",
+        "5": "8",
+        "6": "34",
+        "7": "7",
+        "8": "497",
+        "9": "19",
+        "10": "79",
+        "11": "32",
+        "12": "170",
+        "13": "35",
+        "14": "1144",
+        "15": "158",
+        "16": "1347",
+        "17": "391",
+        "18": "1681",
+        "19": "315",
+        "20": "5031"
+    },
+    "userCount": 24193,
+    "favoritesCount": 382,
+    "startDate": "2018-10-06",
+    "endDate": "2019-07-28",
+    "nextRelease": null,
+    "popularityRank": 407,
+    "ratingRank": 124,
+    "ageRating": "R",
+    "ageRatingGuide": "17+ (violence & profanity)",
+    "subtype": "TV",
+    "status": "finished",
+    "tba": "",
+    "posterImage": {
+        "tiny": "https://media.kitsu.io/anime/poster_images/41410/tiny.jpg?1597699259",
+        "small": "https://media.kitsu.io/anime/poster_images/41410/small.jpg?1597699259",
+        "medium": "https://media.kitsu.io/anime/poster_images/41410/medium.jpg?1597699259",
+        "large": "https://media.kitsu.io/anime/poster_images/41410/large.jpg?1597699259",
+        "original": "https://media.kitsu.io/anime/poster_images/41410/original.jpg?1597699259",
+        "meta": {
+            "dimensions": {
+                "tiny": {
+                    "width": 110,
+                    "height": 156
+                },
+                "small": {
+                    "width": 284,
+                    "height": 402
+                },
+                "medium": {
+                    "width": 390,
+                    "height": 554
+                },
+                "large": {
+                    "width": 550,
+                    "height": 780
+                }
+            }
+        }
+    },
+    "coverImage": {
+        "tiny": "https://media.kitsu.io/anime/cover_images/41410/tiny.jpg?1597701810",
+        "small": "https://media.kitsu.io/anime/cover_images/41410/small.jpg?1597701810",
+        "large": "https://media.kitsu.io/anime/cover_images/41410/large.jpg?1597701810",
+        "original": "https://media.kitsu.io/anime/cover_images/41410/original.jpg?1597701810",
+        "meta": {
+            "dimensions": {
+                "tiny": {
+                    "width": 840,
+                    "height": 200
+                },
+                "small": {
+                    "width": 1680,
+                    "height": 400
+                },
+                "large": {
+                    "width": 3360,
+                    "height": 800
+                }
+            }
+        }
+    },
+    "episodeCount": 39,
+    "episodeLength": 23,
+    "totalLength": 0,
+    "youtubeVideoId": "R92KmKcg07Y",
+    "showType": "TV",
+    "nsfw": false
+}

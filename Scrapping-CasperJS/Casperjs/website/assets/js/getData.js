@@ -20,7 +20,7 @@ var
       userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:23.0) Gecko/20130404 Firefox/23.0"
     }
   }),
-  url = 'https://www.db-z.com/',
+  url = '',
   arrayArticle = [];
 
 // Script Dev
@@ -50,13 +50,13 @@ function getDataArticle() {
     articles = document.querySelectorAll("div article");
 
   for (var i = 0, article; article = articles[i]; i++) {
-    var link = article.querySelector('a'),
-      content = article.querySelector('div.penci-post-excerpt'),
+    var link = article.querySelector('a.penci-link-post'),
+      content = article.querySelector('div.article_content div.entry-media'),
       img = article.querySelector('.penci-image-holder')
       articleObj = {}
 
     articleObj['link'] = link.getAttribute('href')
-    articleObj['style'] = img.getAttribute('style')
+    //articleObj['style'] = img.getAttribute('style')
     articleObj['content'] = content.textContent
     articleObj['title'] = link.getAttribute('title')
 
